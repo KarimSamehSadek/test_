@@ -1,0 +1,11 @@
+name: firstprj
+entry_points: 
+    main:
+        parameters:
+            kimo: Float
+            omar: String
+        command: "python startup.py {kimo} {omar}" 
+    myentrypoint:
+        parameters:
+            alpha: Integer
+        command: "python train.py {alpha}"
